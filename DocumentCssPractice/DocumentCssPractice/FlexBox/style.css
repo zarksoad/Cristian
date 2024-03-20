@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    background-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: chocolate;
+    color: white;
+    border: dashed black;
+    padding: .3rem .7rem;
+}
+
+ul{
+    display: flex; /* primero declarar display flex para dar formato*/
+    /* display: inline-block;          // se usa para acortar el contenedor padre a el contenido de las cajas interiores o  elementos*/
+
+    /* flex-direction: row;            // Valor por defecto es tipo fila */
+    /* flex-direction: row-reverse;    // Usar para dar reversa que comience el contenido del lad contrario "Derecha" */
+    /* flex-direction: column;         // se usa para darle una direcion de columan y tambien se le aplica el reverse */
+
+    /* justify-content: flex-start;    // Por defecto y se puede usar con el end; usando el eje principal de inico o fin */
+    /* justify-content: center;        // Se ubica centrado */
+    /* justify-content: space-between; // divide el espacio a los extremos */
+    /* justify-content: space-around;  // distribuye el espacio */
+    /* justify-content: space-evenly;  // Distribuye el espacio uniformente entre todos los componentes del hijo */
+
+    /* Para evitar la linea del scroll de abajo podemos usar la propiedad wrap */
+    /* flex-wrap: wrap;                // de esta forma evitamos que la pantalla siga creciendo indefinidamente  - se puede hacer reverse*/
+
+    /* flex-flow: row-reverse;         // Funciona muy similar al anterior a war indicandole direccion al contenido*/
+
+    
+}
